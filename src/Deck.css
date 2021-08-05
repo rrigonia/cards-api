@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+.Deck{
+    width: 100%;
+    /* margin: auto auto; */
+    text-align: center;
+    margin-top: 80px;
+    font-family:  'Slabo 27px', serif;
+
+}
+.Deck h1, .Deck h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.Deck h2{
+    font-size: 20px;
+}
+
+.Deck button{
+    padding: .7rem 2.8rem;
+    background: none;
+    color: rgb(15, 120, 85);
+    border: 2px solid rgb(15, 120, 85);
+    box-sizing: border-box;
+    /* border-radius: 8px; */
+    transition:0.25s;
+    font-size: 1.3rem;
+    font-weight: 600;
+    outline: none;
+    font: inherit;
+}
+.Deck button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 120, 24);
+    color: rgb(255, 255, 255);
+    /* border: 1px solid black; */
+}
+
+.Deck ul{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
